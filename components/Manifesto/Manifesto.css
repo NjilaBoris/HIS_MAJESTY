@@ -1,0 +1,57 @@
+.featured-missions-header {
+  position: relative;
+  width: 100vw;
+  height: 100svh;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  z-index: -1;
+}
+.featured-missions-header h1 {
+  color: var(--base-100);
+  font-size: 10vw;
+}
+.featured-missions {
+  width: 100%;
+}
+.featured-missions .featured-missions-list {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 7.5rem;
+}
+
+.featured-missions .featured-missions-list .featured-missions-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  background-color: var(--base-100);
+
+  padding: 2rem 2rem;
+  border-radius: 0.5rem;
+}
+
+.featured-missions .featured-missions-list .featured-missions-item h3,
+.featured-missions .featured-missions-list .featured-missions-item p {
+  color: var(--base-400);
+}
+
+.featured-missions .featured-missions-list .featured-missions-item p {
+  font-weight: 600;
+}
+
+.featured-missions
+  .featured-missions-list
+  .featured-missions-item
+  .featured-mission-item-img {
+  aspect-ratio: 4/2;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
