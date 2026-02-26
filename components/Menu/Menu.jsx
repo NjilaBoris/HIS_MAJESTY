@@ -338,7 +338,12 @@ const Menu = () => {
                 <Link href="#gallery" onClick={handleLinkClick}>
                   Gallery
                 </Link>
-                <Link href="#contact" onClick={handleLinkClick}>
+                <Link
+                  href="mailto:Mfawtanyi@yahoo.co.uk"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  onClick={handleLinkClick}
+                >
                   Contact
                 </Link>
               </div>
@@ -381,9 +386,9 @@ const Menu = () => {
           </div>
           <div className="menu-social">
             <a
-              href="Mfawtanyi@yahoo.co.uk"
-              target="_blank"
+              href="mailto:Mfawtanyi@yahoo.co.uk"
               rel="noopener noreferrer"
+              target="_blank"
               onClick={handleLinkClick}
             >
               Email

@@ -26,7 +26,13 @@ export default function Footer() {
             <Link href="#">WORK</Link>
             <Link href="#about">ABOUT</Link>
             <Link href="#manifesto">MANIFESTO</Link>
-            <Link href="#footer">CONTACT</Link>
+            <Link
+              href="mailto:Mfawtanyi@yahoo.co.uk"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              CONTACT
+            </Link>
           </div>
 
           {/* RIGHT */}
@@ -44,9 +50,9 @@ export default function Footer() {
 
             <div className="text-sm">
               <a
-                href="Mfawtanyi@yahoo.co.uk"
-                target="_blank"
+                href="mailto:Mfawtanyi@yahoo.co.uk"
                 rel="noopener noreferrer"
+                target="_blank"
               >
                 ↳ Mfawtanyi@yahoo.co.uk
               </a>
