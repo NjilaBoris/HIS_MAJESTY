@@ -4,7 +4,7 @@ import Copy from "../Copy/Copy";
 const AboutMe = () => {
   return (
     <section id="about" className="h-dvh w-full pt-8 text-center ">
-      <div className="w-full h-full px-5 space-y-7">
+      <div className="w-full h-full px-5 space-y-7 lg:pt-20">
         <Copy>
           <h1 className="text-[#ebb02b] text-xl! tracking-wider! md:text-2xl! lg:text-2xl! text-center">
             Welcome to My Journey
@@ -16,7 +16,7 @@ const AboutMe = () => {
           </h2>
         </Copy>
         <Copy>
-          <p className="lg:max-w-2xl! max-sm:leading-8! text-balance mx-auto lg:text-2xl! md:max-w-xl! md:text-xl!">
+          <p className="lg:max-w-2xl! max-sm:leading-8!  lg:text-balance mx-auto lg:text-2xl! md:max-w-xl! md:text-xl!">
             I am Robinson Tambe Ayuk TANYI, Traditional Leader of the Tinto-Mbu
             Community in Cameroon’s South West Region. My life’s work stands at
             the intersection of tradition, sustainability, and African

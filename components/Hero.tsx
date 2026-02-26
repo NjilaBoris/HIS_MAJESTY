@@ -51,7 +51,7 @@ const Hero = () => {
         united, and sustainable Africa.”
       </p>
 
-      <div className="relative z-20 flex flex-wrap items-center justify-center gap-4 pt-4">
+      <div className="relative z-20 flex flex-wrap  items-center justify-center gap-4 pt-4">
         <button className="rounded-md bg-[#ebb02b] px-6 py-2.5 uppercase text-sm font-medium text-[#13413cf2] transition-colors hover:opacity-85 focus:ring-2 focus:yellow-500 focus:ring-offset-2 focus:ring-offset-yellow-600 focus:outline-none">
           <Link href="#about">Discover the mission</Link>
         </button>
