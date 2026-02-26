@@ -36,7 +36,7 @@ const Hero = () => {
     "/img31.jpg",
   ];
   return (
-    <div className="relative mx-auto  flex h-dvh  w-full max-w-7xl flex-col items-center justify-center overflow-hidden">
+    <div className="relative mx-auto  flex h-dvh  w-screen max-w-7xl flex-col items-center justify-center overflow-hidden">
       <h4 className="relative mt-7 z-20 text-[#ebb02b] mb-3 mx-auto max-w-4xl tracking-wide! text-center text-sm! font-bold text-balance ">
         Traditional Leader | Pan-African Visionary
       </h4>
