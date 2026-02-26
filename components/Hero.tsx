@@ -60,7 +60,7 @@ const Hero = () => {
       {/* overlay */}
       <div className="absolute inset-0 z-10 h-full w-full bg-[#13413cf2]/80 " />
       <ThreeDMarquee
-        className="pointer-events-none absolute inset-0 h-dvh w-full"
+        className="pointer-events-none absolute inset-0 h-dvh w-screen"
         images={images}
       />
     </div>
