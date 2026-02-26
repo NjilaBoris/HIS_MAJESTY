@@ -44,10 +44,10 @@ const Gallery = () => {
       </Copy>
       <section
         id="gallery"
-        className="relative mx-auto  flex h-[70dvh]  w-screen  items-center justify-center overflow-hidden"
+        className="relative mx-auto  flex h-[70dvh]  w-full  items-center justify-center overflow-hidden"
       >
         <ThreeDMarquee
-          className="pointer-events-none absolute inset-0 h-dvh w-screen"
+          className="pointer-events-none absolute inset-0 h-dvh w-full"
           images={images}
         />
       </section>

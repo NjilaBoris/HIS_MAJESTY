@@ -36,7 +36,7 @@ const Hero = () => {
     "/img31.jpg",
   ];
   return (
-    <div className="relative mx-auto  flex h-dvh  w-screen  flex-col items-center justify-center overflow-hidden">
+    <div className="relative mx-auto  flex h-dvh  w-full flex-col items-center justify-center overflow-hidden">
       <h4 className="relative mt-7 z-20 text-[#ebb02b] mb-3 mx-auto max-w-4xl tracking-wide! text-center text-sm! font-bold text-balance ">
         Traditional Leader | Pan-African Visionary
       </h4>
@@ -60,7 +60,7 @@ const Hero = () => {
       {/* overlay */}
       <div className="absolute inset-0 z-10 h-full w-full bg-[#13413cf2]/80 " />
       <ThreeDMarquee
-        className="pointer-events-none absolute inset-0 h-dvh w-screen"
+        className="pointer-events-none absolute inset-0 h-dvh w-full"
         images={images}
       />
     </div>
